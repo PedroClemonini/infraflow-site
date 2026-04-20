@@ -1,11 +1,4 @@
 <?php
-// Se você baixou manualmente o ZIP, use estes includes:
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-
-// Se você usou o Composer, apague os 3 requires acima e descomente a linha abaixo:
-// require 'vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
