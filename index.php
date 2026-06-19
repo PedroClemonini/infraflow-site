@@ -54,7 +54,71 @@
         </div>
     </section>
 
-    <section class="py-16 md:py-20 bg-slate-950 px-6 md:px-10 border-y border-slate-800">
+    <section class="py-16 md:py-20 bg-slate-950 px-6 md:px-10 border-y border-slate-800 text-center">
+        <h2 class="text-3xl font-bold mb-4 text-white tracking-wide">Análise SWOT</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto mb-10 md:mb-12">A seguir será apresentada a análise estratégica da InfraFlow, considerando fatores internos e externos que influenciam sua atuação.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto text-left">
+            <!-- Forças -->
+            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 border-t-4 border-t-emerald-500 shadow-lg hover:shadow-emerald-900/20 transition duration-300">
+                <div class="bg-emerald-500/20 w-12 h-12 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">Forças</h3>
+                <ul class="text-sm text-slate-400 space-y-3 list-disc pl-4 marker:text-emerald-500">
+                    <li><strong class="text-slate-300">Corpo Técnico Híbrido:</strong> Domínio Full Cycle (infra, dev, QA e UX/UI).</li>
+                    <li><strong class="text-slate-300">Especialização em IaC:</strong> Proficiência em Terraform, Ansible e Packer.</li>
+                    <li><strong class="text-slate-300">Virtualização:</strong> Experiência com Proxmox e ZFS on-premise.</li>
+                    <li><strong class="text-slate-300">Cultura Ágil:</strong> Alta maturidade em Scrum e XP.</li>
+                    <li><strong class="text-slate-300">Qualidade (QA):</strong> Processos refinados de validação.</li>
+                </ul>
+            </div>
+
+            <!-- Fraquezas -->
+            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 border-t-4 border-t-orange-500 shadow-lg hover:shadow-orange-900/20 transition duration-300">
+                <div class="bg-orange-500/20 w-12 h-12 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">Fraquezas</h3>
+                <ul class="text-sm text-slate-400 space-y-3 list-disc pl-4 marker:text-orange-500">
+                    <li><strong class="text-slate-300">Gaps de Negócio:</strong> Foco técnico em detrimento de habilidades comerciais.</li>
+                    <li><strong class="text-slate-300">Centralização:</strong> Dificuldade na delegação podendo gerar gargalos.</li>
+                    <li><strong class="text-slate-300">Curva de Experiência:</strong> Vivência majoritariamente acadêmica em larga escala.</li>
+                    <li><strong class="text-slate-300">Automação de Testes:</strong> Dependência residual de processos manuais.</li>
+                </ul>
+            </div>
+
+            <!-- Oportunidades -->
+            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 border-t-4 border-t-blue-500 shadow-lg hover:shadow-blue-900/20 transition duration-300">
+                <div class="bg-blue-500/20 w-12 h-12 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">Oportunidades</h3>
+                <ul class="text-sm text-slate-400 space-y-3 list-disc pl-4 marker:text-blue-500">
+                    <li><strong class="text-slate-300">Indústria 4.0:</strong> Demanda por automação local e de baixa latência.</li>
+                    <li><strong class="text-slate-300">DevSecOps:</strong> Integração de segurança em fluxos de infraestrutura.</li>
+                    <li><strong class="text-slate-300">Nicho Financeiro:</strong> Know-how em sistemas críticos e segurança.</li>
+                    <li><strong class="text-slate-300">Diferencial QA:</strong> Entrega validada de automações como diferencial.</li>
+                </ul>
+            </div>
+
+            <!-- Ameaças -->
+            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 border-t-4 border-t-purple-500 shadow-lg hover:shadow-purple-900/20 transition duration-300">
+                <div class="bg-purple-500/20 w-12 h-12 rounded-full flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-4">Ameaças</h3>
+                <ul class="text-sm text-slate-400 space-y-3 list-disc pl-4 marker:text-purple-500">
+                    <li><strong class="text-slate-300">Cloud Gerenciada:</strong> Hegemonia de serviços nativos (AWS/Azure).</li>
+                    <li><strong class="text-slate-300">Obsolescência:</strong> Atualização acelerada de ferramentas DevOps.</li>
+                    <li><strong class="text-slate-300">Time-to-Market:</strong> Pressão por entregas rápidas frente ao perfeccionismo.</li>
+                    <li><strong class="text-slate-300">Volatilidade:</strong> Evolução constante de frameworks de teste.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 md:py-20 bg-slate-900 px-6 md:px-10">
         <h2 class="text-3xl font-bold text-center mb-10 md:mb-12 text-white tracking-wide">Ações de Extensão</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
             <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 hover:bg-slate-800/80 transition duration-300">
@@ -80,7 +144,7 @@
         </div>
     </section>
 
-    <section class="py-16 md:py-20 bg-slate-900 px-6 md:px-10">
+    <section class="py-16 md:py-20 bg-slate-950 px-6 md:px-10 border-t border-slate-800">
         <h2 class="text-3xl font-bold text-center mb-10 md:mb-12 text-white tracking-wide">Nossa Equipe</h2>
         <div class="flex flex-wrap justify-center gap-6 md:gap-8 max-w-6xl mx-auto">
 
